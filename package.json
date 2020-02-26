@@ -1,0 +1,23 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "```\r *{ box-sizing: border-box; }\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/141110126/test2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/141110126/test2/issues"
+  },
+  "homepage": "https://github.com/141110126/test2#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
