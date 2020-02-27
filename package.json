@@ -17,7 +17,17 @@
     "url": "https://github.com/141110126/test2/issues"
   },
   "homepage": "https://github.com/141110126/test2#readme",
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@vue/component-compiler-utils": "^3.1.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.4"
   }
 }
