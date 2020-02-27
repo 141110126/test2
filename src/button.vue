@@ -10,7 +10,19 @@
 </template>
 <script>
 export default {
-  props: ['icon', 'iconPosition']
+  // props: ['icon', 'iconPosition']
+  props: {
+    icon: {
+      type: String
+    },
+    iconPosition: {
+      type: String,
+      default: 'left',
+      validator(value) {
+        return value === 'left' || value === 'right';
+      }
+    }
+  }
 }
 </script>
 <style scoped lang="scss">
@@ -22,6 +34,8 @@ export default {
   border: 1px solid var(--border-color);
   background: var(--button-bg);
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
   vertical-align: middle;
   &:hover {
     border-color: var(--border-color-hover);
