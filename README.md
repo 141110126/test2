@@ -5,3 +5,6 @@
 *{ box-sizing: border-box; }
 ```
 
+## 跑框架用命令行
+npx parcel index.html --no-cache
+npm run test
