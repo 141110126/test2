@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Button from '../src/button.vue'
 import Icon from '../src/icon.vue'
 import ButtonGroup from '../src/button-group.vue'
-
+// import chai from 'chai'
+// import spies from 'chai-spies'
+// chai.use(spies);
 
 Vue.component('g-button', Button);
 Vue.component('g-icon', Icon);
@@ -91,13 +93,12 @@ describe('测试button组件', () => {
       }
     })
     vm.$mount();
-    // vm添加点击事件，使用chai.spy
-    let spy = chai.spy(function(){});
-    vm.$on('click',spy);
+    let callback = sinon.fake();
+    vm.$on('click',callback);
     // 执行点击
     console.log(vm.$el);
     let button = vm.$el;
     button.click();
-    expect(spy).to.have.been.called();
+    expect(callback).to.have.been.called;
   })
 })
