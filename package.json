@@ -1,10 +1,10 @@
 {
   "name": "test1",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "```\r *{ box-sizing: border-box; }\r ```",
   "main": "index.js",
   "scripts": {
-    "dev-test":"parcel watch test/* --no-cache && karma start",
+    "dev-test": "parcel watch test/* --no-cache && karma start",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
   },
   "repository": {
