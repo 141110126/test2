@@ -1,8 +1,8 @@
 {
-  "name": "test1",
-  "version": "0.0.1",
+  "name": "vue-ui-pack",
+  "version": "0.0.2",
   "description": "```\r *{ box-sizing: border-box; }\r ```",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev-test": "parcel watch test/* --no-cache && karma start",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
