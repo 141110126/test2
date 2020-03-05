@@ -1,6 +1,6 @@
 {
   "name": "vue-ui-pack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "```\r *{ box-sizing: border-box; }\r ```",
   "main": "dist/index.js",
   "scripts": {
